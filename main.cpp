@@ -1,11 +1,14 @@
-#include<iostream>
+#include <iostream>
 using namespace std;
 int main()
 {
+    //defining integers
     int n;
     int arr[n];
-    cout<<"enter the array element "<<"\n";
-    for(int k=0;k<n;k++)
+    cout<<"Enter the elements of array"<<"\n";
+    // for loop, increment till the value n
+    for(int k=0;k<n;k++) 
+        
     {
     cin>>arr[k];
     }
